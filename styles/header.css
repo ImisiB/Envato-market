@@ -66,6 +66,7 @@
   color: #cfcfcf;
 }
 .subscribe{
+  flex: 1;
   font-size: 13px; 
   font-family: Open Sans;
   color: #AAAAAA;
