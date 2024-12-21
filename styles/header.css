@@ -1,0 +1,107 @@
+.span{
+  font-size: 21px;
+  color: white;
+  font-weight: 700;
+  margin-right: 2px;
+}
+.head-two{
+  font-size: 18px;
+  color: rgb(219, 212, 212);
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1px;
+  letter-spacing:-1px;
+  cursor: pointer;
+}
+.buy{
+  background-color: #82B440;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  line-height: 1.5;
+  font-size: 14px;
+  right: 5px;
+  cursor: pointer;
+}
+.head{
+  background-color: #262626;
+  padding: 1px 25px 1px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.head-three{
+  height: 45px;
+  max-height: 45px;
+  background-color: rgb(48, 46, 46);
+  display: flex;
+  align-items: center;
+  justify-content: space-between center;
+  padding: 0px 20px;
+}
+.img{
+  margin-left: 12px;
+  margin-right: 23px;
+
+}
+.word{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open Sans;
+  background-color: #3f3f3f;
+  padding: 12px 15px;
+  margin-right: 8px;
+  width: 185px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.klean{
+  color: #cfcfcf;
+  margin-right: 40px;
+}
+.list{
+  /* width: 3px; */
+  color: #cfcfcf;
+}
+.subscribe{
+  font-size: 13px; 
+  font-family: Open Sans;
+  color: #AAAAAA;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.subscribe:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(33, 30, 30);
+  font-family: Open sans;
+  color: white;
+  padding: 13px 27px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.buys{
+  margin-left: 8px;
+}
+.remove{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open sans;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  padding-left: 13px;
+  background-color: rgb(48, 46, 46);
+  padding: 13px 27px;
+}
+.frame{
+  margin-left: 8px;
+}
