@@ -1,0 +1,22 @@
+.page{
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+}
+.page-pic-one{
+  padding: 100px;
+  background-color: red;
+  margin-left: 48px;
+}
+.page-pic-two{
+  padding: 100px;
+  background-color: blue;
+}
+.page-pic-three{
+  padding: 100px;
+  background-color: red;
+  margin-right: 48px;
+}
+.page-one{
+  display: grid;
+}
