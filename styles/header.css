@@ -41,7 +41,7 @@
   padding: 0px 20px;
 }
 .img{
-  margin-left: 12px;
+  margin-left: 165px;
   margin-right: 23px;
 
 }
@@ -66,12 +66,12 @@
   color: #cfcfcf;
 }
 .subscribe{
-  flex: 1;
+  /* flex: 1; */
   font-size: 13px; 
   font-family: Open Sans;
   color: #AAAAAA;
   margin-left: 10px;
-  margin-right: 40px;
+  margin-right: 280px;
 }
 .subscribe:hover{
   text-decoration: underline;
@@ -84,9 +84,11 @@
   background-color: rgb(33, 30, 30);
   font-family: Open sans;
   color: white;
-  padding: 13px 27px;
+  padding: 13px 34px 13px 27px;
   font-size: 13px;
   cursor: pointer;
+  margin-right: 0px;
+  margin-left: 16px;
 }
 .buys{
   margin-left: 8px;
@@ -102,6 +104,7 @@
   padding-left: 13px;
   background-color: rgb(48, 46, 46);
   padding: 13px 27px;
+  margin-left: -6px;
 }
 .frame{
   margin-left: 8px;

@@ -1,22 +1,41 @@
 .page{
-  display: flex;
-  justify-content:  space-between;
-  align-items: center;
-}
-.page-pic-one{
-  padding: 100px;
-  background-color: red;
-  margin-left: 48px;
-}
-.page-pic-two{
-  padding: 100px;
-  background-color: blue;
-}
-.page-pic-three{
-  padding: 100px;
-  background-color: red;
-  margin-right: 48px;
-}
-.page-one{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 5%;
+  margin-bottom: 70px;
+}
+
+.page-pic{
+  cursor: pointer;
+  display: inline-block;
+  height: 100px;
+}
+
+.page-one{
+  display: block;
+  text-align: center;
+  margin-right: 60px;
+  margin-bottom: 70px;
+  height: 300px;
+  position: relative;
+}
+.page-one:hover .page-overlay{
+  display: flex;
+  transition-duration: 2s ;
+}
+.page-overlay{
+  background-color: rgba(0, 0, 0, 0.269);
+  height: 100%;
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
