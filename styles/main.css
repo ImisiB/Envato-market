@@ -55,12 +55,20 @@
   margin-left: 45%;
 }
 .feature{
-  margin-left: 45%;
+  margin-left: 480px;
   margin-top: 70px;
   font-family: Lora Serif;
+  font-size: 17px;
 }
 .feat{
   height: 100px;
   font-size: 46px;
-  margin-right: 80px;
+  margin-left: 450px;
+}
+.watch{
+  background-color: #2f2f2f;
+  padding: 13px 13px;
+  margin-left: 630px;
+  width: 100px;
+  color: white;
 }
