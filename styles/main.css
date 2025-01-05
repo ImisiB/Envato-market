@@ -23,10 +23,10 @@
 }
 .page-one:hover .page-overlay{
   display: flex;
-  transition-duration: 2s;
+  transition-duration: 0.5s;
+  background-color: rgba(0, 0, 0, 0.32);
 }
 .page-overlay{
-  background-color: rgba(0, 0, 0, 0.32);
   height: 100%;
   width: 100%;
   display: none;
@@ -64,11 +64,35 @@
   height: 100px;
   font-size: 46px;
   margin-left: 450px;
+  font-weight: 600;
 }
 .watch{
   background-color: #2f2f2f;
-  padding: 13px 13px;
+  padding: 13px 23px;
   margin-left: 630px;
   width: 100px;
   color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 200px;
 }
+.watch:hover{
+  background-color: #5b5b5b;
+  transition-duration: 0.5s;
+  font: 16px;
+}
+.header-styles{
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.header-style{
+  font-size: 17px;
+  margin-right: 40px;
+  font-family: Lora serif;
+}
+.header-styl{
+  margin-left: 130px;
+  text-align: center;
+}
+
