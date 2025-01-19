@@ -95,10 +95,20 @@
   margin-left: 130px;
   text-align: center;
 }
+
 .core-features{
   text-align: center;
   padding-left: 120px;
   padding-right: 120px;
+  width: 30;
+}
+.core-feature{
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 230px;
+  text-align: center;
+  color: black;
+  font-size: 60px;
 }
 .icons{
   padding: 150px 0px;
@@ -114,10 +124,14 @@
   width: 150px;
   font-size: 20px;
   color: grey;
+  height: 150px;
 }
 .main-icon{
   color: #2f2f2f;
   /* height: 50px; */
   /* width: 50px; */
   size: 200px;
+}
+.error{
+  color: red;
 }
